@@ -1,7 +1,7 @@
 public class BuyAndSellStocks{
     public static void main(String[] args) {
         int prices[]={7, 1, 5, 3, 6, 4};
-        int bp=Integer.MAX_VALUE,sp=0,maxProfit=0;
+        int bp=Integer.MAX_VALUE,maxProfit=0;
         for(int i=0 ; i<prices.length ; i++){
             if(bp<prices[i]){
                 int profit = prices[i]-bp;
