@@ -48,5 +48,6 @@ public class BitOperations{
         System.out.println(clearRangeOfBits(n, sc.nextInt(), sc.nextInt()));
         System.out.println(checkPowerOfTwo(n));
         System.out.println(countSetBits(n));
+        sc.close();
     }
 }
